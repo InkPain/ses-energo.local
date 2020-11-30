@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('.slider_main').slick({
+        adptiveHeight:true,
+        autoplay:true,
+        autoplayspeed:1,
+        speed:1500
+    });
+    $('.slider_abbout_us').slick({
+        adptiveHeight:true,
+    });
+});
