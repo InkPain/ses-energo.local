@@ -35,6 +35,9 @@ body {
 body::-webkit-scrollbar { 
     display: none; 
 }
+div{
+    overflow:hidden;
+}
 
 /*////////////////////////*/
 /*Other Classes and Resets*/
@@ -98,7 +101,7 @@ h3{
 }
 
 .header{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100px;
     z-index: 50;
@@ -131,6 +134,7 @@ h3{
     font-family: Pribambas;
     position: relative;
     z-index: 4;
+    
 }
 
 .logo_img{
@@ -377,6 +381,7 @@ h3{
     .block{
         width: 100%;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        height: 200px;
     }
     .about_us_block{
         width: 100%;
