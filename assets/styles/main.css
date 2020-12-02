@@ -564,6 +564,9 @@ h3{
     color: #fff;
     line-height:25px;
 }
+.contacts_main_mobile{
+    display: none;
+}
 @media (max-width:670px){
     .contacts{
         width: 100%;
@@ -571,9 +574,6 @@ h3{
     }
 }
 @media (max-width:570px){
-    .contacts_block{
-        height: 350px;
-    }
     .video_media{
         display: none;
     }
@@ -584,12 +584,27 @@ h3{
         display: none;
     }
     .contacts_main{
-        position: relative;
-        width: 100%;
-        height: auto;
+        display: none;
+    }
+    .contacts_block{
+        background-size: 200% 100%;
+        background-image:url(../img/22.jpg);
+    }
+    .contacts_main_mobile{
+        display: block;
         text-align: center;
-        z-index: 33;
-        margin: -100px auto;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.726);
+    }
+    .contacts_main_mobile .div-topborders, .contacts_main_mobile .div-bottomborders{
+        border-color: #E34624;
+    }
+    .contacts_main_mobile p{
+        color: #fff;
+        line-height:25px;
+    }
+    .map{
+        margin: 20px 0 20px;
     }
     
 }
