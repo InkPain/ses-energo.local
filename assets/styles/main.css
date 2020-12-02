@@ -567,6 +567,26 @@ h3{
 .contacts_main_mobile{
     display: none;
 }
+
+.footer{
+    width: 100%;
+    background-color: rgb(22, 20, 20);
+}
+.logo_footer img{
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: 10px auto;
+}
+.footer_text{
+    font-size: 8px;
+    color: #fff;
+    text-align: center;
+}
+.marc{
+    font-size: 14px;
+    color: #e3472423;
+}
 @media (max-width:670px){
     .contacts{
         width: 100%;
