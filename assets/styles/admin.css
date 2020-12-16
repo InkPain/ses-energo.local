@@ -1,0 +1,17 @@
+.btn{
+    text-align: center;
+    padding: 7px;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 1em;
+}
+.user_input{
+    border: black solid 1px;
+    padding: 5px;
+    text-align: center;
+}
+.add_new{
+    width: 100%;
+    text-align: center;
+}
+
